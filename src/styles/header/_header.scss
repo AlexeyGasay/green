@@ -1,0 +1,60 @@
+header
+{
+  background: #fff;
+}
+
+.header__burger
+{
+  display: none;
+}
+
+.header_nav
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo
+{
+  padding: 8px 0;
+}
+
+.header__menu
+{
+  display: flex;
+}
+
+.header__menu_link
+{
+  margin-left: 58px;
+  font-size: 14px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  transition: .3s;
+
+  &:hover,
+  &:focus
+  {
+    color: $light_green;
+  }
+
+}
+
+.header__info_block
+{
+  margin-left: 132px;
+  display: flex;
+}
+
+.header__phone
+{
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+}
+
+.header__company_logo
+{
+  margin-left: 33px;
+}

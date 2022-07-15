@@ -1,0 +1,31 @@
+@import './colors';
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.wrapper
+{
+  padding-bottom: 100px;
+}
+
+.container
+{
+  max-width: 1366px;
+  margin: 0 auto;
+  // border: 1px solid red;
+  overflow: hidden;
+}
+
+
+@import './header/header';
+
+@import './main/slider';
+@import './main/feedback';
+
+@import './adaptive';
